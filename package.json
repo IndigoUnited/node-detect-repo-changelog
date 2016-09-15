@@ -1,5 +1,5 @@
 {
-  "name": "detect-",
+  "name": "detect-repo-changelog",
   "version": "1.0.0",
   "description": "Scans a repository directory, searching for a changelog file",
   "main": "index.js",
