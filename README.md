@@ -31,8 +31,14 @@ Uses [changelog-filename-regex](https://github.com/shinnn/changelog-filename-reg
 ```js
 const detectRepoChangelog = require('detect-repo-changelog');
 
-detectRepoChangelog('http://google.com')
-.then((changelogFile) => console.log(changelogFile ? `changelog file is ${changelogFile}` : 'no changelog'));
+detectRepoChangelog('./some-repository-directory')
+.then((changelogFile) => {
+    if (changelogFile) {
+        console.log(`changelog file is ${changelogFile}`);
+    } else {
+        console.log('no changelog detected');
+    }
+});
 ```
 
 
