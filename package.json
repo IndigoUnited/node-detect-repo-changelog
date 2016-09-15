@@ -1,6 +1,6 @@
 {
   "name": "detect-",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Scans a repository directory, searching for a changelog file",
   "main": "index.js",
   "scripts": {
