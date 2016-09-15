@@ -6,7 +6,7 @@ const isRegularFile = require('is-regular-file');
 const changelogFilenameRegex = require('changelog-filename-regex');
 const find = require('lodash.find');
 
-function hasChangelog(dir) {
+function detectRepoChangelog(dir) {
     return readdir(dir)
     .then((files) => {
         let changelogFile = find(files, (file) => changelogFilenameRegex.test(file));
@@ -22,4 +22,4 @@ function hasChangelog(dir) {
     });
 }
 
-module.exports = hasChangelog;
+module.exports = detectRepoChangelog;
