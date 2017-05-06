@@ -11,7 +11,7 @@
 [coveralls-image]:https://img.shields.io/coveralls/IndigoUnited/node-detect-repo-changelog/master.svg
 [david-dm-url]:https://david-dm.org/IndigoUnited/node-detect-repo-changelog
 [david-dm-image]:https://img.shields.io/david/IndigoUnited/node-detect-repo-changelog.svg
-[david-dm-dev-url]:https://david-dm.org/IndigoUnited/node-detect-repo-changelog#info=devDependencies
+[david-dm-dev-url]:https://david-dm.org/IndigoUnited/node-detect-repo-changelog?type=dev
 [david-dm-dev-image]:https://img.shields.io/david/dev/IndigoUnited/node-detect-repo-changelog.svg
 
 Scans a repository directory, searching for a changelog file.
