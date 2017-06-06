@@ -27,11 +27,11 @@
     "changelog-filename-regex": "^1.1.0",
     "is-regular-file": "^1.0.1",
     "lodash.find": "^4.6.0",
-    "pify": "^2.3.0"
+    "pify": "^3.0.0"
   },
   "devDependencies": {
     "@satazor/eslint-config": "^3.0.0",
-    "chai": "^3.4.1",
+    "chai": "^4.0.2",
     "coveralls": "^2.11.6",
     "eslint": "^3.0.0",
     "istanbul": "^0.4.1",
