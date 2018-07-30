@@ -24,7 +24,7 @@
   "author": "IndigoUnited <hello@indigounited.com> (http://indigounited.com)",
   "license": "MIT",
   "dependencies": {
-    "changelog-filename-regex": "^1.1.0",
+    "changelog-filename-regex": "^2.0.1",
     "is-regular-file": "^1.0.1",
     "lodash.find": "^4.6.0",
     "pify": "^3.0.0"
