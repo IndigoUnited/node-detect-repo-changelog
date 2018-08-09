@@ -27,7 +27,7 @@
     "changelog-filename-regex": "^1.1.0",
     "is-regular-file": "^1.0.1",
     "lodash.find": "^4.6.0",
-    "pify": "^3.0.0"
+    "pify": "^4.0.0"
   },
   "devDependencies": {
     "@satazor/eslint-config": "^3.0.0",
